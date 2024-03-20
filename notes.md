@@ -34,6 +34,10 @@
 
 ## 3.2 Structural analysis of masonry arches
 - barrel vaults
+  - barrel vaults are the simplest form of vaults
+  - the thrust line is a parabola
+
 - cross vaults
 - domes 
 
+## 3.3 FEA analysis 
