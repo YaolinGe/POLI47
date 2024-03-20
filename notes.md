@@ -18,4 +18,17 @@
   - thrsut line
     - the thickness cannot be smaller than the shape formed by the thrust line
     - GSF 2 and 3 is the for the most popular ancient arches
-    
+  - vaults
+    - barrel vault
+    - cross vault
+    - ribbed vault
+  - domes
+
+## 1.3 Different analysis methods from Gabriele Miano
+
+## 1.4 Architectural restoration
+
+
+## 3.1 Arches mechanical analysis 
+- 
+
