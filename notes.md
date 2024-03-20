@@ -32,3 +32,8 @@
 ## 3.1 Arches mechanical analysis 
 - 
 
+## 3.2 Structural analysis of masonry arches
+- barrel vaults
+- cross vaults
+- domes 
+
