@@ -1,0 +1,17 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "three": "^0.162.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.2"
+  },
+  "homepage": "https://YaolinGe.github.io/POLI47/"
+}
