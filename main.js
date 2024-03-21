@@ -22,7 +22,7 @@ function main() {
   controls.update();
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color('yellow');
+  scene.background = new THREE.Color('white');
 
   {
     const planeSize = 4000;
@@ -54,7 +54,7 @@ function main() {
   }
 
   {
-    const color = 0xFFFFFF;
+    const color = 0xefedee;
     const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
     light.position.set(5, 10, 2);
@@ -119,11 +119,11 @@ function main() {
 
   {
     const mtlLoader = new MTLLoader();
-    mtlLoader.load('c14_4.mtl', (mtl) => {
+    mtlLoader.load('assets/model/c14_4.mtl', (mtl) => {
       mtl.preload();
       const objLoader = new OBJLoader();
       objLoader.setMaterials(mtl);
-      objLoader.load('chapel.obj', (root) => {
+      objLoader.load('assets/model/chapel.obj', (root) => {
         scene.add(root);
 
         // compute the box that contains all the stuff
