@@ -119,11 +119,11 @@ function main() {
 
   {
     const mtlLoader = new MTLLoader();
-    mtlLoader.load('assets/model/c14_4.mtl', (mtl) => {
+    mtlLoader.load('/assets/model/c14_4.mtl', (mtl) => {
       mtl.preload();
       const objLoader = new OBJLoader();
       objLoader.setMaterials(mtl);
-      objLoader.load('assets/model/chapel.obj', (root) => {
+      objLoader.load('/assets/model/chapel.obj', (root) => {
         scene.add(root);
 
         // compute the box that contains all the stuff
